@@ -1,7 +1,6 @@
 include:
   - ses.ceph
   - ses.common.mds_key
-  - ses.mon
 
 keyring_mds_auth_add:
   module.run:

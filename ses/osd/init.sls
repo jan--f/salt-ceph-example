@@ -1,7 +1,6 @@
 include:
   - ses.ceph
   - ses.common.osd_key
-  - ses.mon
 
 keyring_osd_auth_add:
   module.run:

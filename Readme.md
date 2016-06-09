@@ -1,6 +1,8 @@
 A simple example salt state files to use with
 
-    https://github.com/oms4suse/python-ceph-cfg
+(https://github.com/oms4suse/python-ceph-cfg)
+
+You should have a working salt setup for this.
 
 Copy the files to your salt master root dir and run salt '*' state.apply.
 This will install ceph and python-ceph-cfg on all your nodes and start mon's,

@@ -3,7 +3,7 @@ keyring_admin_save:
     - name: ceph.keyring_save
     - kwargs: {
         'keyring_type' : 'admin',
-        'secret' : 'AQBR8KhWgKw6FhAAoXvTT6MdBE+bV+zPKzIo6w=='
+        'secret' : {{ salt['pillar.get']('admin.secret', 'AQBR8KhWgKw6FhAA__DEFAULT_KEY__PKzIo6def') }}
         }
     - require:
       - sls: ses.ceph
